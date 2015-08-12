@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.sl</groupId>
-  <artifactId>gt</artifactId>
+  <artifactId>cdi-test-example</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>gt</name>
+  <name>cdi-test-example</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -20,28 +20,6 @@
       <artifactId>javax.inject</artifactId>
       <version>1</version>
     </dependency>
-<!--    <dependency>
-      <groupId>com.google.inject</groupId>
-      <artifactId>guice</artifactId>
-      <version>3.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>4.1.4.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-test</artifactId>
-      <version>4.1.4.RELEASE</version>
-    </dependency>
-
-&lt;!&ndash;    <dependency>
-      <groupId>org.jboss.weld.se</groupId>
-      <artifactId>weld-se</artifactId>
-      <version>2.2.15.Final</version>
-    </dependency>&ndash;&gt;-->
     <dependency>
       <groupId>javax.enterprise</groupId>
       <artifactId>cdi-api</artifactId>

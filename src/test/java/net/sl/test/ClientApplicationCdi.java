@@ -7,7 +7,7 @@ import org.jboss.weld.environment.se.WeldContainer;
 /**
  * Created by a601054 on 2015-08-10.
  */
-public class ClientApplicationSpring {
+public class ClientApplicationCdi {
 
     public static void main(String[] args) {
         WeldContainer weld = new Weld().initialize();
